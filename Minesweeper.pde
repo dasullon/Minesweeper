@@ -98,7 +98,7 @@ public void mousePressed ()
 {
 clicked = true;
 //fix
-if(mouseButton==RIGHT){
+if(keyPressed){
   fill(0,255,0);
   marked=true;
  }
